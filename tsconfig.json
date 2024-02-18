@@ -1,0 +1,8 @@
+{
+    "compilerOptions": {
+        "target": "es5",
+        "module": "commonjs",
+        "strict": true,
+        "lib": ["es2015","dom"], //console을 사용하려면 dom, find를 사용하려면 es2015를 선언해야함.
+    }
+}
