@@ -92,14 +92,14 @@ var FashionCompany = /** @class */ (function () {
                         console.log("죄송합니다. 재고가 부족합니다.");
                         return [4 /*yield*/, this.sellProduct()];
                     case 4:
-                        _b.sent();
+                        _b.sent(); //재귀를 통해 다시 물어보기
                         _b.label = 5;
                     case 5: return [3 /*break*/, 8];
                     case 6:
                         console.log("제품 이름을 다시 입력하세요");
                         return [4 /*yield*/, this.sellProduct()];
                     case 7:
-                        _b.sent();
+                        _b.sent(); //재귀를 통해 다시 물어보기
                         _b.label = 8;
                     case 8: return [2 /*return*/];
                 }
