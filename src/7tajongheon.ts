@@ -87,28 +87,28 @@ class SevenTa {
 
 
 
-async function main() {
-    const teacher = new SevenTa();
-    console.log("시작하자.")
-    teacher.enterStudents("에이",10, 6,0);
-    teacher.enterStudents("비",15, 4,0);
-    teacher.enterStudents("씨",14, 7,0);
-    teacher.enterStudents("디",17, 4,0);
-    teacher.enterStudents("에프",20, 5,0);
-    teacher.enterStudents("이",21, 7,0);
-    teacher.enterStudents("쥐",15, 7,0);
-    teacher.enterStudents("에이치",12, 4,0);
-    teacher.enterStudents("아이",18, 7,0);
-    teacher.enterStudents("제이",19, 8,0);
-    teacher.enterStudents("케이",11, 5,0);
-    for(let i=0;i<10;i++){
-        teacher.practiceTest();
-        teacher.examTest();
-        teacher.evaluation();
-    }
-    console.log('1타강사가 되었다. 난 이제 일 안해 수고~!');
-}
+// async function main() {
+//     const teacher = new SevenTa();
+//     console.log("시작하자.")
+//     teacher.enterStudents("에이",10, 6,0);
+//     teacher.enterStudents("비",15, 4,0);
+//     teacher.enterStudents("씨",14, 7,0);
+//     teacher.enterStudents("디",17, 4,0);
+//     teacher.enterStudents("에프",20, 5,0);
+//     teacher.enterStudents("이",21, 7,0);
+//     teacher.enterStudents("쥐",15, 7,0);
+//     teacher.enterStudents("에이치",12, 4,0);
+//     teacher.enterStudents("아이",18, 7,0);
+//     teacher.enterStudents("제이",19, 8,0);
+//     teacher.enterStudents("케이",11, 5,0);
+//     for(let i=0;i<10;i++){
+//         teacher.practiceTest();
+//         teacher.examTest();
+//         teacher.evaluation();
+//     }
+//     console.log('1타강사가 되었다. 난 이제 일 안해 수고~!');
+// }
 
-main().then(()=>{
-    process.exit(0);
-})
+// main().then(()=>{
+//     process.exit(0);
+// })
