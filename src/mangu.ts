@@ -88,35 +88,35 @@ class Mangu{
 }
 
 
-async function main(){
-    const Mang=new Mangu();
-    Mang.makeManguTeam(1,"오나나나",0,15,9);
-    Mang.makeManguTeam(2,"린델로프",0,7,8);
-    Mang.makeManguTeam(5,"매과이어",0,11,8);
-    Mang.makeManguTeam(20,"달로",0,14,6);
-    Mang.makeManguTeam(29,"완비사카",0,15,7);
-    Mang.makeManguTeam(6,"리산마",0,22,8);
-    Mang.makeManguTeam(19,"바란",0,21,8);
-    Mang.makeManguTeam(23,"쇼",0,12,7);
-    Mang.makeManguTeam(8,"브페",0,20,3);
-    Mang.makeManguTeam(23,"펠리스트리",0,5,8);
-    Mang.makeManguTeam(23,"판 더 베이크",0,4,9);
-    Mang.makeManguTeam(39,"맥중사",0,18,8);
-    Mang.makeManguTeam(10,"급식포드",0,19,4);
-    Mang.makeManguTeam(9,"마샬",0,7,8);
-    Mang.makeManguTeam(21,"안토니",0,7,8);
-    Mang.makeManguTeam(14,"린가드",0,11,8);
-    Mang.makeManguTeam(17,"가르나초",0,12,7);
-    Mang.makeManguTeam(11,"호일룬",0,13,8);
-    console.log();
-    for(let i=0;i<80;i++){
-        Mang.fight();
+// async function main(){
+//     const Mang=new Mangu();
+//     Mang.makeManguTeam(1,"오나나나",0,15,9);
+//     Mang.makeManguTeam(2,"린델로프",0,7,8);
+//     Mang.makeManguTeam(5,"매과이어",0,11,8);
+//     Mang.makeManguTeam(20,"달로",0,14,6);
+//     Mang.makeManguTeam(29,"완비사카",0,15,7);
+//     Mang.makeManguTeam(6,"리산마",0,22,8);
+//     Mang.makeManguTeam(19,"바란",0,21,8);
+//     Mang.makeManguTeam(23,"쇼",0,12,7);
+//     Mang.makeManguTeam(8,"브페",0,20,3);
+//     Mang.makeManguTeam(23,"펠리스트리",0,5,8);
+//     Mang.makeManguTeam(23,"판 더 베이크",0,4,9);
+//     Mang.makeManguTeam(39,"맥중사",0,18,8);
+//     Mang.makeManguTeam(10,"급식포드",0,19,4);
+//     Mang.makeManguTeam(9,"마샬",0,7,8);
+//     Mang.makeManguTeam(21,"안토니",0,7,8);
+//     Mang.makeManguTeam(14,"린가드",0,11,8);
+//     Mang.makeManguTeam(17,"가르나초",0,12,7);
+//     Mang.makeManguTeam(11,"호일룬",0,13,8);
+//     console.log();
+//     for(let i=0;i<80;i++){
+//         Mang.fight();
 
-    }
-    Mang.constructionTeam();
-}
+//     }
+//     Mang.constructionTeam();
+// }
 
 
-main().then(() => {
-    process.exit(0);
-})
+// main().then(() => {
+//     process.exit(0);
+// })
